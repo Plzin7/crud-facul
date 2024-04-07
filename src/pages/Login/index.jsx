@@ -1,4 +1,5 @@
 import './style.css'
+import { Link } from "react-router-dom";
 
 export function Login() {
 
@@ -6,7 +7,7 @@ export function Login() {
     <main className="box-login">
       <div className="overlay"></div>
       <div className="container"></div>
-
+    <background img></background>
       <form >
         <div className="title-login">
           <div>
@@ -36,7 +37,7 @@ export function Login() {
           <a href="">I forget my password</a>
         </div>
 
-        <button id="btn-enter">Enter</button>
+        <Link to="/home">Enter</Link>
       </form>
     </main>
   )
