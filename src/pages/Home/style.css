@@ -1,0 +1,62 @@
+.main-panel-box {
+  width: 1200px;
+  margin: auto;
+  border: 2px solid rgba(255, 6, 6, 0.616);
+  border-radius: 19px;
+  margin-top: 70px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Dark overlay for background */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* Estilos para o alerta personalizado */
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  color: red;
+  font-size: large;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+/* titulo */
+
+h1 {
+  color: red;
+}
+
+.main-panel-box {
+  color: red;
+}
